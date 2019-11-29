@@ -1,6 +1,6 @@
 package com.cherednik;
 
-public class Average {
+public class Main {
 
     public static void main(String[] args) {
         int luckyTicket = 0;
