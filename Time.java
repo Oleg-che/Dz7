@@ -1,9 +1,11 @@
 package com.cherednik;
 
-public class Average {
+public class Main {
 
     public static void main(String[] args) {
-        int hours, minutes, h1, h2, m1, m2, time;
+        int hours, h1, h2;
+        int minutes, m1, m2;
+        int time;
         hours = 0;
         minutes = 0;
         time = 0;
