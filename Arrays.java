@@ -7,14 +7,14 @@ public class Average {
     private static Random RANDOM = new Random();
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(Array()));
+        System.out.println(Arrays.toString(array()));
         System.out.println();
         System.out.println(average());
         System.out.println();
         System.out.println(Arrays.toString(Array2()));
     }
 
-    private static int[] Array() {
+    private static int[] array() {
         int[] arr = new int[10];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = RANDOM.nextInt(100);
@@ -24,11 +24,11 @@ public class Average {
 
     private static double average() {
         double average = 0;
-        if (Array().length > 0) {
+        if (array().length > 0) {
             double sum = 0;
-            for (int j = 0; j < Array().length; j++) {
-                sum += Array()[j];
-                average = sum / Array().length;
+            for (int j = 0; j < array().length; j++) {
+                sum += array()[j];
+                average = sum / array().length;
             }
         }
         return average;
